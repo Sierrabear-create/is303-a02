@@ -15,7 +15,7 @@ Inputs:
 
 Processes: 
  - Verify player's level first, then class
- - Recommend a Quest based on level and class
+ - Recommend a Quest based on level and class  
 
 Outputs:
  - Print player's Name, Class, Level
