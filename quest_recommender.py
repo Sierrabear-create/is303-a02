@@ -30,7 +30,8 @@ if raw_level.isdigit():
   player_level = int(raw_level)
 else: 
   print("Error! Player level must be a whole number! ")
-if player_class == "warrior":
+
+if player_class == "warrior" and player_level.isdigit():
     if 1<= player_level <=10:
      print("Recommended Quest:Aid the Wounded Blue Lady ")
 #Why is there an error here?? 
@@ -42,7 +43,7 @@ if player_class == "warrior":
 
     else: print("Error! Enter player level as a whole number. ")
 
-elif player_class == "mage":
+elif player_class == "mage" and player_level.isdigit():
     if 1<= player_level <=10:
      print("Recommended Quest:Discovering the Arcane Arts ")
 
@@ -55,7 +56,7 @@ elif player_class == "mage":
 
     else: print("Error! Enter player level as a whole number. ")
 
-elif player_class == "rogue":
+elif player_class == "rogue" and player_level.isdigit():
     if 1<= player_level <=10:
      print("Recommended Quest: What's a Little Money? ")
 
@@ -68,7 +69,7 @@ elif player_class == "rogue":
 
     else: print("Error! Enter player level as a whole number. ")
 
-elif player_class == "healer":
+elif player_class == "healer" and player_level.isdigit():
     if 1<= player_level <=10:
      print("Recommended Quest:The Upper Hand of the Underdog ")
 
@@ -80,7 +81,7 @@ elif player_class == "healer":
 
     else: print("Error! Enter player level as a whole number. ")
 
-elif player_class == "bard":
+elif player_class == "bard" and player_level.isdigit():
     if 1<= player_level <=10:
      print("Recommended Quest:Persuading the Governor's Daughter ")
 
